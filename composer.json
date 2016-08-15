@@ -1,0 +1,14 @@
+{
+    "name": "markledger/unittesting",
+    "require-dev": {
+        "silex/silex": "~2.0",
+        "phpunit/phpunit": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "Mark Ledger",
+            "email": "useyourillusiontoo@gmail.com"
+        }
+    ],
+    "require": {}
+}
