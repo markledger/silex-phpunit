@@ -16,8 +16,5 @@
         </testsuite>
     </testsuites>
 
-    <php>
-        <server name="APP_DIR" value="/Users/markledger/Sites/unittesting/app" />
-        <env name="env" value="test" />
-    </php>
+    
 </phpunit>
