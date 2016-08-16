@@ -2,4 +2,8 @@
 
 $app = require_once __DIR__.'/../app/app.php';
 
-$app->run();
+if ('test' == $app['env'])
+    return $app;
+else
+    $app->run();
+

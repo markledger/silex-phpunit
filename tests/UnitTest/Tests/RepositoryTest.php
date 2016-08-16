@@ -1,16 +1,20 @@
 <?php
+namespace UnitTest\Tests;
 
-use PHPUnit_Framework_TestCase;
+use Symfony\Component\HttpFoundation\Response;
+use Silex\Application;
+
+use UnitTest\Monkey;
 
 class RepositoryTest extends \PHPUnit_Framework_TestCase
 {
-    public function testInitialPage()
-    {
-         $statusCode = 400;
-		    $pageContent = "if";
+  //   public function testInitialPage()
+  //   {
+		// $monkey = new Monkey();
+	
 
-    $this->assertEquals(200, $statusCode);
-    $this->assertContains('Contact us', $pageContent);
-    $this->assertContains('<form', $pageContent);
-    }
+  //  		 $this->assertEquals('monkey see', $monkey->monkeyCan);
+   
+  //   }
+    
 }
