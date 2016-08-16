@@ -13,12 +13,16 @@ class WebTest extends WebTestCase {
 	public function testUploadForm() {
 		$client = $this->createClient();
 		$crawler = $client->request('GET','/');
+		
 		$this->assertEquals(
 			200, 
-			$client->getResponse()->getStatusCode(), 
-			'Upload form failed to load'
+			$client->getResponse()->getStatusCode() 
 			);
-		$this->markTestIncomplete();
+
+		$this->assertCount(
+			1, 
+			$crawler->filter('html:contains("Welcome")') 
+			);
 	}
 
 }

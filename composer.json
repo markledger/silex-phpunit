@@ -12,5 +12,7 @@
             "email": "useyourillusiontoo@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "doctrine/dbal": "~2.2"
+    }
 }
